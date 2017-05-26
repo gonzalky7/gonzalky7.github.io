@@ -67,12 +67,38 @@
 					</header>
 					
      
-     		<iframe width="100%" height="300" src="https://jsfiddle.net/gonzalky/c0z07aco/2/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+     		<iframe width="100%" height="300" src="https://jsfiddle.net/gonzalky/c0z07aco/6/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 			<p> So this simple example is all that is needed to make a call to the BreweryDB and get the description of a beer. If you go to the Result tab you will see nothing is displayed. Because if you look at the req.open() you will see there is a section in the call [PutBeerHere]. I have provided some beer for you to copy and paste. Try it out and see the Results!!
 			Replace the whole [PutBeerHere] brackets TOO! You will need to click on the "Edit in JSFiddle link at the top to edit". <br>
 			
-			<b>Tecate, goosinator, Budweiser, Agrestic</b></p> <br>
+			<b>Naughty 90, Cerasus Dog, Barbe Rouge</b></p> <br>
+
+			<header>
+						<h1> JSON, or JavaScript Object Notation</h1>
+						<p> Understanding what is returned and how to retrieve that information </p>
+			</header>
+
+			<p>So if it works awesome!! If not, then another issue could be that the return values are not the same for every beer. The BreweryDB returns three types of formatted data JSON, XML and serialized PHP. If you look at the <code> req.open</code> you will see we explicitly ask for JSON. <br><br>JSON is built on two structures:
+			<br> <ul>
+			<li>A collection of name/value pairs. In various languages, this is realized as an object, record, struct, dictionary, hash table, keyed list, or associative array.</li>
+			<li>An ordered list of values. In most languages, this is realized as an array, vector, list, or sequence.</li>
+			</ul>
+
+
+			Videos are always easier than a bunch of text so to help you better understand what is being returned I want you to go to the
+			<a href = "http://www.brewerydb.com/styles">BreweryDB Browse Section</a> and select different beer names and put them into the JSFiddle. The video will show you how to use the inspect feature in the chrome browser to see if A. Your call was successful B. The JSON return information and C. How to parse the JSON to get certain types of information.  To learn more about JSON <a href="https://www.copterlabs.com/json-what-it-is-how-it-works-how-to-use-it/">Go to this website</a><br><br>
+
+			Disclaimer: I am a beginning web development student thus if any information is incorrect I would be more than happy for you to correct me.  </p><br>
+
+			<iframe width="500" height="350" src="https://www.useloom.com/embed/1872f678e3a34054b7b7db84d15f9ae5" frameborder="0" allowfullscreen></iframe>
+
+			
+
+
+
+
+
 
 			<p><b>IMPORTANT!!</b> If you opened jsfiddle and cannot see the results it might be a <i>Allow-Control-Allow-Origin</i> error <a href="CORS.html">click here</a> to find out how to fix it. 
    							 

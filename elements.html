@@ -55,9 +55,9 @@
 
 
 							
-						</section>
+						
 
-<section>
+
 	
 	<pre class = "prettyprint"><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -134,8 +134,18 @@ document.addEventListener('DOMContentLoaded', bindButtons);
 			<code>document.addEventListener('DOMContentLoaded', bindButtons);</code> is calling the bindButtons function when the HTML document has been completely loaded and parsed. <br> <br>
 			The bindButtons function collects the information when the form, inputs the variables into the query string, sees if the get request was successful then uses the <code> document.getElementById("myImg").src = response.data.labels.icon;</code> to parse through the JSON file and get the elements we wanted. Which is the label for the beer. 
 
-
 			</p>
+
+
+			<p>So if you take the code above and assemble it into an .html file and then open that file into a Chrome browser this is what you should see. So remember this call uses the get/beerid method not the search method we used earlier. As of now I have given you most of the skills to explore on your own. Browse the website, search for beers using JSFiddle, and then capture the beer Id's and use them here with your html page. And if something doesn't work use the Inspect feature to try and figure it out. This code calls on labels but will break if a beer doesn't have one. <b>GOOD LUCK AND HAPPY CODING!!</b></p>
+			 <img src="images/HTML.png" style="width:550px;height:375px" />
+
+		
+			 </div>
+			 <ul class="actions">
+						<li><a href="generic.html" class="button alt">Go back</a></li>
+			</ul>
+
 </section>
 		<!-- Footer -->
 			<footer id="footer">
