@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<!--
+	Binary by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>CORS</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="logo"><strong>Fixing Allow-Control-Allow-Origin</strong></a>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="generic.html">Getting Set-Up</a></li>
+					<li><a href="elements.html">Creating HTML pages</a></li>
+				</ul>
+			</nav>
+
+		<!-- Main -->
+			<section id="main">
+
+				<div class="inner">
+
+					<div class="image fit">
+					<header>
+						<h1> How to fix Allow-Control-Allow-Origin</h1>
+					</header>
+					
+					<p>So important before you continue, this explanation is only for the Chrome browser. If you are having issues with Safari or Firefox you will have to try and find the solution yourself.  </p>
+
+						<header>
+						<p> Follow the video to see if this is the issue</p>
+					</header>
+
+					<iframe width="500" height="300" src="https://www.useloom.com/embed/cc7691e5ebdb44b8931ea63b904fe2cf" frameborder="0" allowfullscreen></iframe>
+
+					<p>So if you are using Chrome and you followed the video's steps to see if the same error appeared for you, you are having a <b>Cross-origin HTTP request (CORS)</b> problem. A resource makes a cross-origin HTTP request when it requests a resource from a domain or port which is different from the one which the first resource itself serves. What happened with JSFiddle you were making a HTTP request <code>req.open('GET', 'https://api.brewerydb.com/v2/search?q=Goosinator&key=3de3cfdc91affc429fbc0d020361a489&format=json', false); </code> from another domain that it does not recognize. To fix this in Chrome you must add an extension. Click <a href="https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en">here</a> to add the extension. <br>
+					</p>
+
+					<header>
+						<p> Follow this video to see how the issue is fixed after adding the extension</p>
+					</header>
+					<iframe width="500" height="300" src="https://www.useloom.com/embed/70178340067b4d6c907cda2bf4c49bf9" frameborder="0" allowfullscreen></iframe>
+
+					<p>Now hit the Go back button and try and see if the issue is fixed!!</p>
+
+
+					<ul class="actions">
+						<li><a href="generic.html" class="button alt">Go back</a></li>
+					</ul>
+
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				
+				<div class="copyright">
+					&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+
+	</body>
+</html>
