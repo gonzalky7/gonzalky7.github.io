@@ -1,0 +1,68 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+ 	 <meta charset="utf-8">
+	 <title>NHL Database</title>
+  	 <meta name="description" content="The HTML5 Herald">
+
+  	 <link rel="stylesheet" href="style.css">
+	</head>
+
+		<body>
+		<header>NHL Database</header>
+
+		<div>
+			<form action="Player.php">
+				<fieldset>
+					<legend>First Name and Last Name</legend>
+					<label for="fname">First Name:</label>
+					<input name="fname" id="fname" value="">
+					<label for="lname">Last Name:</label>
+					<input type="lname" name="lname" id="lname" value="">
+				    <button type="submit">Submit</button> 
+				</fieldset>
+			</form>
+		</div>
+
+		<div>
+			<form action="Team.php">
+				<fieldset>
+					<legend>Team Name</legend>
+					<label for="tname">Team Name:</label>
+					<input name="tname" id="tname" value="">
+				    <button type="submit">Submit</button> 
+				</fieldset>
+			</form>
+		</div>
+
+		<div>
+			<form action="Country.php">
+				<fieldset>
+					<legend>Country of Origin</legend>
+					<label for="cname">Country Name:</label>
+					<input name="cname" id="cname" value="">
+				    <button type="submit">Submit</button> 
+				</fieldset>
+			</form>
+		</div>
+
+		<div>
+	  		<table border = "1" cellpadding = "5" cellspacing = "5">
+		         <tr>
+		            <th>First name</th>
+		            <th>Last name</th>
+		            <th>Team</th>
+		            <th>Country of Origin</th>
+		         </tr>
+		         <tr>
+		            <td>Teemu</td>
+		            <td>Selanne</td>
+		            <td>Ret. Anaheim Ducks</td>
+		            <td>Finland</td>
+		         </tr>
+	     	</table>
+     	</div>
+		</body>
+
+</html>
